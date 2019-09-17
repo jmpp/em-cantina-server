@@ -167,7 +167,7 @@ module.exports = class Recipes {
         }
 
         // Photo (facultatif)
-        if (fields.photo && "string" === typeof fields.photo) {
+        if ("string" === typeof fields.photo) {
             recipeObj["photo"] = fields.photo;
         }
 
